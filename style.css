@@ -1,0 +1,90 @@
+.navigation{
+    flex-basis: 300px;
+    flex-shrink: 0;
+    background-color: lightblue;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    
+    background: rgba(23,48,71,1);
+    background: -moz-linear-gradient(left, rgba(23,48,71,1) 0%, rgba(23,48,71,1) 0%, rgba(72,242,46,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(23,48,71,1)), color-stop(0%, rgba(23,48,71,1)), color-stop(100%, rgba(72,242,46,1)));
+    background: -webkit-linear-gradient(left, rgba(23,48,71,1) 0%, rgba(23,48,71,1) 0%, rgba(72,242,46,1) 100%);
+    background: -o-linear-gradient(left, rgba(23,48,71,1) 0%, rgba(23,48,71,1) 0%, rgba(72,242,46,1) 100%);
+    background: -ms-linear-gradient(left, rgba(23,48,71,1) 0%, rgba(23,48,71,1) 0%, rgba(72,242,46,1) 100%);
+    background: linear-gradient(to right, rgba(23,48,71,1) 0%, rgba(23,48,71,1) 0%, rgba(72,242,46,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#173047', endColorstr='#48f22e', GradientType=1 );
+}
+.copyright{
+    text-align: center;
+    color: white
+}
+.description{
+    font-family: 'Ibarra Real Nova', serif, Arial, cursive;
+    font-size: 2rem;
+    padding: 2px;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #00FF00;
+}
+.article{
+    padding-left: 20px;
+}
+.section-header{
+    font-size: 2rem;
+}
+.article-header{
+    font-size: 1.5rem;
+}
+.content-wrapper{
+    padding: 10px;
+    font-size: 2rem;
+    overflow: auto;
+}
+.wrapper{
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body{box-sizing: border-box;}
+*{box-sizing: inherit;}
+
+.school-title{
+background-color: green;
+cursor: pointer;
+padding: 10px;
+}
+
+.school-wrapper.active .school-description {
+height: 120px;
+}
+
+.school-description{
+    height: 0;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+}
+
+.box {
+    background-color: blue;
+    width: 50%;
+    height: 100px;
+    max-width: 500px;
+    min-width: 800px; 
+}
+.box2{
+    background-color: violet;
+    width: calc(50% + 100px);
+    height: 150px;
+    padding: 10px;
+    border: 5px dotted green;
+    box-sizing: border-box;
+}
